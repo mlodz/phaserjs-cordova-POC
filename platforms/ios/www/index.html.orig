@@ -1,0 +1,49 @@
+<!doctype html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8" />
+    <title>Phaser - Making your first game, part 9</title>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/phaser.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/lodash.min.js"></script>
+    <style type="text/css">
+      body {
+          margin: 0;
+      }
+    </style>
+
+    <audio id="audio">
+
+      <source src="audio/cat.m4a" type="audio/mpeg" />
+      <source src="audio/cat.ogg" type="audio/ogg" />
+
+    </audio>
+
+      <!-- <source src="http://dl.dropbox.com/u/1538714/article_resources/cat.m4a" type="audio/mpeg" /> -->
+      <!-- <source src="http://dl.dropbox.com/u/1538714/article_resources/cat.ogg" type="audio/ogg" /> -->
+
+      <!-- <source src="assets/bass.mp3" type="audio/mp3" /> -->
+      <!-- <source src="assets/squint.ogg" type="audio/ogg" /> -->
+      <!-- <source src="assets/higher.m4a" type="audio/m4a" /> -->
+
+<script>
+audioSprite = document.getElementById('audio');
+playMyAudio = function() {
+    audioSprite.play();
+};
+</script>
+
+  </head>
+
+  <body>Loading...
+
+  </body>
+  <script type="text/javascript" src="js/utils.js"></script>
+  <script type="text/javascript" src="js/animations.js"></script>
+  <script type="text/javascript" src="js/levels.js"></script>
+  <script type="text/javascript" src="js/lifelines.js"></script>
+  <script type="text/javascript" src="js/sprites.js"></script>
+  <script type="text/javascript" src="js/ad_interface.js"></script>
+  <script type="text/javascript" src="js/hunter.js"></script>
+</html>
